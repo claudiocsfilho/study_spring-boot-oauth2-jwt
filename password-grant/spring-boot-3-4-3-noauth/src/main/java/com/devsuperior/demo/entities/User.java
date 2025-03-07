@@ -1,11 +1,11 @@
 package com.devsuperior.demo.entities;
 
+import jakarta.persistence.*;
+
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
-
-import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tb_user")
